@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cstde037.tournamaker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActiveRoundActivity" />
+        <activity android:name=".TournamentSelection" />
+        <activity android:name=".Standing" />
+        <activity android:name=".Standings" />
+        <activity android:name=".StandingsAdapter" />
+        <activity android:name=".DisplayWinner" />
+        <activity android:name=".MatchesPlayed" />
+        <activity android:name=".InformationScreen" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".TeamManager" />
+        <activity android:name=".AddNewTeam" />
+        <activity android:name=".noMatchesCompleted" />
+        <activity android:name=".TeamArrayAdapter"></activity>
+    </application>
+
+</manifest>

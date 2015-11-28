@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TournaMaker</string>
+    <string name="tournamaker_activeRoundHint">Click on a match to enter the score.</string>
+    <string name="tournamaker_at_sign">\@</string>
+    <string name="Settings"></string>
+    <string name="action_settings">Help</string>
+</resources>

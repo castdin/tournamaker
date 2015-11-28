@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/help"
+        android:title="help"
+        android:icon="@android:drawable/ic_menu_info_details"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:showAsAction="ifRoom|collapseActionView"/>
+
+    <item android:id="@+id/standings"
+        android:title="standings"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:showAsAction="ifRoom|collapseActionView"/>
+</menu>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"></LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:rowCount="1"
+        android:columnCount="5"
+        android:orientation="horizontal"
+        android:background="#bf050505">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="W"
+            android:id="@+id/winlossThis"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="#fcfcfc" />
+
+        <TextView
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:text="ARG"
+            android:id="@+id/thisTeamName"
+            android:singleLine="true"
+            android:textSize="20dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="right"
+            android:textAlignment="gravity" />
+
+        <TextView
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="5-0"
+            android:id="@+id/score"
+            android:singleLine="true"
+            android:textSize="30dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="#ffffff"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BRA"
+            android:id="@+id/otherTeamName"
+            android:singleLine="true"
+            android:textSize="20dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L"
+            android:id="@+id/winLossOther"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:phoneNumber="false"
+            android:textSize="50dp"
+            android:textColor="#fcfcfc"
+            android:layout_gravity="right" />
+    </GridLayout>
+</LinearLayout>

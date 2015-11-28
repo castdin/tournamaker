@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.cstde037.tournamaker.AddTeam">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIST OF TEAMS"
+            android:id="@+id/QuickPick"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/ExplanationTeam"
+            android:layout_gravity="center_horizontal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center_horizontal" />
+
+        <ListView
+            android:layout_width="350dp"
+            android:layout_height="0dp"
+            android:id="@+id/teamList"
+            android:layout_gravity="center_horizontal"
+            tools:listitem="@android:layout/simple_list_item_2"
+            android:layout_weight="0.74"
+            android:choiceMode="multipleChoice" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add New Team"
+            android:id="@+id/addNewTeam"
+            android:layout_gravity="center_horizontal"
+            android:onClick="OnClickToAddNewTeam" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Tournament"
+            android:id="@+id/StartTournament"
+            android:layout_gravity="center_horizontal"
+            android:onClick="OnClickStartTournament" />
+
+    </LinearLayout>
+
+</RelativeLayout>

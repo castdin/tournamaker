@@ -1,0 +1,9 @@
+*
+!app/src/
+/build
+/captures
+/.DS_Store
+/.idea/libraries
+/.idea/workspace.xml
+.grade
+*.iml
